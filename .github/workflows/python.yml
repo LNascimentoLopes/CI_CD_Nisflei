@@ -13,4 +13,5 @@ jobs:
          uses: actions/checkout@v4
        - name: Executar o programa
          run: pwd
-             python app.py
+       - name: roda o python
+         run: python app.py
