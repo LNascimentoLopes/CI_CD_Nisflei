@@ -1,0 +1,10 @@
+name: Hello pipeline
+
+on: [push]
+
+jobs:
+  OLA:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dizer Olá
+        run: echo "Ola, esta funfando a pipeline"
