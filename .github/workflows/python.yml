@@ -12,6 +12,5 @@ jobs:
        - name: obter o codigo (checkout)
          uses: actions/checkout@v4
        - name: Executar o programa
-         run: 
-             pwd
+         run: pwd
              python app.py
